@@ -16,7 +16,7 @@ Flash card app for learning. Display, add and remove memory cards with questions
 ## Steps to execute this Memory Card:
 - Download the entire code 
 - Open up the index.html.
-- [View Live Site]()
+- [View Live Site](https://anthonys1760.github.io/Memory-Cards/)
 
 ## Technologies used: 
 - HTML
