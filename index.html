@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Cards</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 </head>
+
 <body>
     <button id="clear" class="clear btn">
         <i class="fas fa-trash">Clear Cards</i>
@@ -19,7 +22,7 @@
     </h1>
 
     <div id="cards-container" class="cards">
-        <div class="card active">
+        <!-- <div class="card active">
             <div class="inner-card">
                 <div class="inner-card-front">
                     <p>
@@ -47,7 +50,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="navigation">
@@ -60,30 +63,32 @@
         <button id="next" class="nav-button">
             <i class="fas fa-arrow-right"></i>
         </button>
-
-        <div id="add-container" class="add-container">
-            <h1>Add New Card
-                <buton id="hide" class="btn btn-small btn-ghost">
-                    <i class="fas fa-times"></i>
-                </buton>
-            </h1>
-            
-            <div class="form-group">
-                <label for="question">Question</label>
-                <textarea id="questions" placeholder="Enter question..."></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="answer">Answer</label>
-                <textarea id="answers" placeholder="Enter Answer..."></textarea>
-            </div>
-
-            <button id="add-card" class="btn">
-                <i class="fas fa-plus"> Add Card</i>
-            </button>
-        </div>
     </div>
+
+    <div id="add-container" class="add-container">
+        <h1>Add New Card
+            <buton id="hide" class="btn btn-small btn-ghost">
+                <i class="fas fa-times"></i>
+            </buton>
+        </h1>
+
+        <div class="form-group">
+            <label for="question">Question</label>
+            <textarea id="questions" placeholder="Enter question..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="answer">Answer</label>
+            <textarea id="answers" placeholder="Enter Answer..."></textarea>
+        </div>
+
+        <button id="add-card" class="btn">
+            <i class="fas fa-plus"> Add Card</i>
+        </button>
+    </div>
+
 
     <script src="main.js"></script>
 </body>
+
 </html>
