@@ -21,6 +21,5 @@ Flash card app for learning. Display, add and remove memory cards with questions
 ## Technologies used: 
 - HTML
 - CSS [style/Presentation]
-- Javascript [Logic/Working of calculator]
-
+- Javascript
 
